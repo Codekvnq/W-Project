@@ -1,0 +1,313 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+font-family: 'Hachi Maru Pop', cursive;
+
+}
+
+body{
+    overflow-x: hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+   
+}
+
+.main-width{
+    width: 1400px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: #fff;
+    position: relative;
+}
+.hero header .logo{
+    display: flex;
+    font-size: 32px;
+    font-weight: 600;
+    
+
+}
+
+.hero header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0 30px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgba(15, 11, 12, 0.774);
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: .4s;
+}
+
+nav ul li:not(:last-child) a:hover,
+nav ul li:not(:last-child) a:focus{
+    border-bottom: 2px solid rgba(80, 32, 32, 0.301);
+}
+
+div .content .desktop-img{
+ width: 60%;
+ min-height: 20vh;
+ min-width:20vh;
+ 
+}
+
+div .main-content h1{
+    display: inline-block;
+    position: absolute;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: sans-serif;
+    width: 30%;
+    max-height:20% ;
+    
+
+    
+
+}
+
+div .main-content p{
+    display: inline-block;
+    position: absolute;
+    font-size: 20px;
+    width: 20%;
+    margin-left: 30%;
+    align-items: center;
+}
+
+div .btn button{
+    background: green;
+    border: 1px solid #f5dca8;
+    padding: 9px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 50%;
+    margin-top: 20%;
+    top: 58%;
+    margin-right: 40;
+    right: 58%;
+    width: 10%;
+    
+  
+    position: absolute;
+}
+
+div .btn button a{
+    text-decoration: none;
+    color: #fff;
+    align-items: center;
+    display: inline-block;
+    
+
+}
+
+section .right-side{
+    background: rgba(43, 5, 44, 0.979);
+    width: 35%;
+    height: 400pt;
+    bottom: 20%;
+    top: 18%;
+     position: absolute;
+    /* right: 70%; */
+    left: 62%;
+ } 
+
+ div .first-content h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgba(165, 162, 14, 0.623);
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ div .first-content h2{
+    color:whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    font-weight: bold;
+ }
+
+ div .first-content p{
+    color: whitesmoke;
+    font-size: 15px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+ }
+
+ div .second-content h2{
+    color:whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    font-weight: bold;
+
+ }
+
+ div .second-content p{
+    color: whitesmoke;
+    font-size: 15px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+ }
+ div .third-content h2{
+    color:whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    font-weight: bold;
+
+ }
+ div .third-content p{
+    color: whitesmoke;
+    font-size: 15px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    
+ }
+
+ div .third-content{
+    padding-top: 10%;
+ }
+
+
+  footer{
+    width: 100%;
+    height: 25vh;
+    margin-top: 25%;
+    position: absolute;
+  }
+
+  footer .img1{
+    width: 10%;
+    height: 100%;
+    position: absolute;
+  }
+
+
+  footer .Retro1{
+    margin-left: 10px;
+    margin-top: 15px;
+    padding-left: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;  
+  }
+
+   
+  footer .cnt{
+   padding-left: 158px;
+   padding-top: 10px;
+   opacity: 30%;
+   width: 30%;
+
+  }
+
+  footer .Retro{
+     padding-left: 160px;
+     padding-top: 10%  ;
+     position: relative;
+     font-size: 40px;
+     font-weight: 700;
+     opacity: 30%;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+ footer .img2{
+    width: 10%;
+    height: 100%;
+    margin-left: 400px;
+    bottom: 2px;
+    position: absolute;
+    /* position: relative; */
+   
+}
+
+footer .top-10{
+    padding-left: 550px;
+    bottom: 110px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 30%;
+    position: absolute;
+}
+ 
+
+footer .hd-2{
+    padding-left: 550px ;
+    bottom: 65px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    position: absolute;
+}
+
+footer .cnt2{
+    padding-left: 550px;
+    bottom: 8%;
+    opacity: 30%;
+    position: absolute; 
+}
+
+footer .img3{
+    width: 10%;
+    height: 100%;
+    margin-left: 850px;
+    bottom: 2px;
+    position: absolute;
+}
+
+
+footer .Gaming{
+    padding-left: 1000px;
+    bottom: 110px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 30%;
+    position: absolute;
+}
+
+
+footer .head-2{
+    bottom: 65px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: 1000px;
+
+    position: absolute;
+}
+
+
+footer .cnt3{
+
+    padding-left: 1000px;
+    bottom: 8%;
+    opacity: 30%;
+
+    position: absolute; 
+    
+
+}
